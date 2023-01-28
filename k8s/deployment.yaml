@@ -53,7 +53,7 @@ spec:
     spec:
       containers:
         - name: kube-news
-          image: abiliojgf/kube-news:v1
+          image: abiliojgf/kube-news:{{TAG}}
           ports:
           - containerPort: 8080
           env:
